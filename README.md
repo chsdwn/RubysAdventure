@@ -14,3 +14,7 @@
 
   - ### Jittering Issue:
     - You need to move objects that have Rigidbody with MovePosition function and run all physics related calculations inside FixedUpdate.
+
+  - Use Mathf.Approximately instead of == because the way computers store float numbers means there is a tiny loss in precision.
+
+  - Normalize vectors that store direction because length is not important, only the direction is.
