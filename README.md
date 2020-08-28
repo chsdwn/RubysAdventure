@@ -11,3 +11,6 @@
     5. P(<u>I</u>)cker
     6. <u>D</u>: Eraser
     7. <u>G</u>: Fill
+
+  - ### Jittering Issue:
+    - You need to move objects that have Rigidbody with MovePosition function and run all physics related calculations inside FixedUpdate.
