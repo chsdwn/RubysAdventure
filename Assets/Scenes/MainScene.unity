@@ -3525,6 +3525,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d4d6b7f43922b4ea3458353bbb56f5, type: 3}
+--- !u!1001 &519965511027262426
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241648, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 519965511163241650, guid: a72b8832289855d42a88b8d5cff71453,
+        type: 3}
+      propertyPath: m_Name
+      value: CollectibleHealth
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a72b8832289855d42a88b8d5cff71453, type: 3}
 --- !u!1001 &2146910912888241400
 PrefabInstance:
   m_ObjectHideFlags: 0
