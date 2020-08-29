@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public GameObject hitEffectPrefab;
+
     Rigidbody2D rigidbody2d;
 
     private void Awake()
@@ -22,7 +25,10 @@ public class Projectile : MonoBehaviour
         EnemyController controller = other.collider.GetComponent<EnemyController>();
 
         if (controller != null)
+        {
             controller.Fix();
+            PlayHitEffect();
+        }
 
         Destroy(gameObject);
     }
@@ -30,5 +36,10 @@ public class Projectile : MonoBehaviour
     public void Launch(Vector2 direction, float force)
     {
         rigidbody2d.AddForce(direction * force);
+    }
+
+    private void PlayHitEffect()
+    {
+        Instantiate(hitEffectPrefab, gameObject.transform.position, Quaternion.identity);
     }
 }

@@ -29,9 +29,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4691658995414886834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -2.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1807937362536343959}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -144,6 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ecfe4533ccdad8458588b12b31ba3d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smokeEffect: {fileID: 1807937362536343952}
+  hitEffect: {fileID: 4362383251567530273, guid: ef70fd582ef4f17449524ab50c2113a2,
+    type: 3}
   speed: 2
   vertical: 0
   changeTime: 3
@@ -166,3 +170,84 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &8334056210366696655
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4691658995414886846}
+    m_Modifications:
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.042
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692032184318240093, guid: fafa77f6dbeb48945b229d064aa4b046,
+        type: 3}
+      propertyPath: m_Name
+      value: SmokeEffect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fafa77f6dbeb48945b229d064aa4b046, type: 3}
+--- !u!4 &1807937362536343959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7692032184318240088, guid: fafa77f6dbeb48945b229d064aa4b046,
+    type: 3}
+  m_PrefabInstance: {fileID: 8334056210366696655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1807937362536343952 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7692032184318240095, guid: fafa77f6dbeb48945b229d064aa4b046,
+    type: 3}
+  m_PrefabInstance: {fileID: 8334056210366696655}
+  m_PrefabAsset: {fileID: 0}
