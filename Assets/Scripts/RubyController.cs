@@ -5,6 +5,7 @@ using UnityEngine;
 public class RubyController : MonoBehaviour
 {
     public GameObject projectilePrefab;
+    public AudioClip throwCogClip, playerHitClip;
     public float speed = 3f;
     public int maxHealth = 5;
     public int health { get { return currentHealth; } }
@@ -13,6 +14,7 @@ public class RubyController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
+    AudioSource audioSource;
     float horizontal;
     float vertical;
     int currentHealth;
@@ -21,9 +23,11 @@ public class RubyController : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
-        rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        rigidbody2d = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
+
+        currentHealth = maxHealth;
     }
 
     void Update()
@@ -92,6 +96,8 @@ public class RubyController : MonoBehaviour
 
             isInvincible = true;
             invincibleTimer = timeInvincible;
+
+            PlaySound(playerHitClip);
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
@@ -101,6 +107,11 @@ public class RubyController : MonoBehaviour
         animator.SetTrigger("Hit");
     }
 
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
+
     void Launch()
     {
         GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * .5f, Quaternion.identity);
@@ -108,6 +119,7 @@ public class RubyController : MonoBehaviour
         Projectile projectile = projectileObject.GetComponent<Projectile>();
         projectile.Launch(lookDirection, 300);
 
+        PlaySound(throwCogClip);
         animator.SetTrigger("Launch");
     }
 }
