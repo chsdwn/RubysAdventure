@@ -11,6 +11,42 @@ TextureImporter:
   - first:
       213: 21300004
     second: JambiIdle3
+  - first:
+      213: -8357743652229098784
+    second: JambiSheet_0
+  - first:
+      213: 8595663479141425735
+    second: JambiSheet_1
+  - first:
+      213: -824855406727480688
+    second: JambiSheet_2
+  - first:
+      213: -4891066528653638872
+    second: JambiSheet_3
+  - first:
+      213: -5569122339829369764
+    second: JambiSheet_4
+  - first:
+      213: -4734256227678310330
+    second: JambiSheet_5
+  - first:
+      213: 2827613151017727381
+    second: JambiSheet_6
+  - first:
+      213: 7973170230432093472
+    second: JambiSheet_7
+  - first:
+      213: 2278990496654081955
+    second: JambiSheet_8
+  - first:
+      213: -5926329881344118402
+    second: JambiSheet_9
+  - first:
+      213: 5568476939962292687
+    second: JambiSheet_10
+  - first:
+      213: 2256109974182258263
+    second: JambiSheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -96,7 +132,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JambiIdle1
+      name: JambiSheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -110,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9f29c444b3a0a488d9e380dd4e476f
-      internalID: 21300000
+      spriteID: 0e2db15fd64530c80800000000000000
+      internalID: -8357743652229098784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle2
+      name: JambiSheet_1
       rect:
         serializedVersion: 2
         x: 256
@@ -131,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac704b7ce23e935479b6b68735992ca3
-      internalID: 21300002
+      spriteID: 742e50b746ee94770800000000000000
+      internalID: 8595663479141425735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle3
+      name: JambiSheet_2
       rect:
         serializedVersion: 2
         x: 512
@@ -152,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa29f31bb01b004a92b38edc46f72f3
-      internalID: 21300004
+      spriteID: 09ab2fab0668d84f0800000000000000
+      internalID: -824855406727480688
       vertices: []
       indices: 
       edges: []

@@ -15004,6 +15004,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a72b8832289855d42a88b8d5cff71453, type: 3}
+--- !u!1001 &1352194604001263404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194602793008176, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352194603100722080, guid: 194303a703dbdfc4091617d534c0781f,
+        type: 3}
+      propertyPath: m_Name
+      value: Jambi
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 194303a703dbdfc4091617d534c0781f, type: 3}
 --- !u!1001 &2146910912888241400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15222,6 +15291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4691658995414886845, guid: 4cc77b9b1f0bae84e8ed17e05e6fc4e5,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4691658995414886846, guid: 4cc77b9b1f0bae84e8ed17e05e6fc4e5,
         type: 3}
